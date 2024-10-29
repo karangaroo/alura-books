@@ -7,15 +7,7 @@
     background-position: center;
 }
 
-.menu-hamburguer_domeio{
 
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    background-image: url("../img/Menu.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-}
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
@@ -67,11 +59,18 @@
     display: none;
 }
 
-.menu-hamburguer_domeio{
-    width: 24px;
-    height: 24px;
-    display: inline-block;
+.menu-hamburguer_carrosel{
+
+    width: 30px;
+    height: 30px;
+    display: block;
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.container__botao_carrosel{
+
+    display: none;
 }
